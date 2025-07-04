@@ -98,3 +98,20 @@ button:hover {
         object-fit: cover;  /* Чтобы логотип заполнил круг */
     }
     
+
+.logo-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Для адаптивности */
+@media (max-width: 600px) {
+    .logo-circle {
+        width: 60px;
+        height: 60px;
+    }
+}
